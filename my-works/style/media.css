@@ -1,0 +1,39 @@
+@media(max-width: 991px){
+    .slider__img {
+        height: 50vh!important;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 767px){
+    .menu__link {
+        margin-left: 0;
+        margin-top: 7px;
+        display: block;
+    }
+    
+    .menu__link_margin {
+        margin: 20px 27px 0px 27px;
+    }
+    
+    .header__title {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .header__description {
+        font-size: 20px;
+    }
+
+    .tabs__info {
+        margin-top: -50px;
+        height: auto;
+    }
+}
+
+@media(max-width: 575px) {
+    .header__description, .content__description {
+        text-align: center;
+    }
+
+}
