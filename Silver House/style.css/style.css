@@ -1,0 +1,156 @@
+@import "fonts.css";
+
+
+:root {
+    --fontBase: "RB";
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+nav {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.menu {
+    color: #4581b7;
+    margin-top: 59px;
+    margin-bottom: 50px;
+    display: flex;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: #4551b7;
+    border-bottom: 1px solid #4581b7;
+    
+
+}
+
+.menu li {
+    margin-left: 40px;
+}
+
+header {
+    text-align: center;
+}
+
+.block {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.block_information {
+    width: 730px;
+    background: #f0f0f0;
+}
+
+
+.block_contactinfo {
+    width: 350px;
+    background: #f0f0f0;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+.block_footer {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+}
+
+.footer__information {
+    text-align: end;
+}
+
+.h1__text {
+    margin-top: 49px;
+    margin-left: 41px;
+    color: #4581b7;
+    font-family: var(--fontBase);
+}
+
+.h2__text {
+    margin-top: 49px;
+    margin-left: 40px;
+    color: #4581b7;
+    font-family: var(--fontBase);
+}
+
+.h3__text {
+    margin-top: 39px;
+    margin-right: 41px;
+    color: #808080;
+    font-family: var(--fontBase);
+}
+
+.p_text3 {
+    margin-top: 8px;
+    margin-right: 41px;
+    color: #808080;
+    font-weight: 900;
+    font-family: var(--fontBase);
+}
+
+img {
+    margin-top: 16px;
+    margin-left: 41px;
+    margin-bottom: 14px;
+}
+
+.p_text1 {
+    margin-top: 49px;
+    margin-left: 41px;
+    margin-bottom: 67px;
+    margin-right: 98px;
+    color: #7f7f7f;
+    font-family: var(--fontBase);
+}
+
+.p_text2 {
+    margin-top: 28px;
+    margin-left: 40px;
+    margin-right: 54px;
+    color: #808080;
+    font-family: var(--fontBase);
+}
+
+.p_tel {
+    margin-top: 48px;
+    margin-left: 40px;
+    color: #808080;
+    font-family: var(--fontBase);
+}
+
+.p_mail {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #808080;
+    font-family: var(--fontBase);
+}
+
+.header-nav__link {
+    color: #4581b7;
+    background: #fff;
+    font-family: var(--fontBase);
+}
