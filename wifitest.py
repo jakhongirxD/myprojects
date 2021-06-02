@@ -47,9 +47,8 @@ print(r"""______            _     _  ______                 _           _
 | |/ / (_| |\ V /| | (_| | | |_/ / (_) | | | | | | |_) | (_| | |
 |___/ \__,_| \_/ |_|\__,_| \____/ \___/|_| |_| |_|_.__/ \__,_|_|""")
 print("\n****************************************************************")
-print("\n* Copyright of David Bombal, 2021                              *")
-print("\n* https://www.davidbombal.com                                  *")
-print("\n* https://www.youtube.com/davidbombal                          *")
+print("\n* Copyright of Jakhongir, 2021                              *")
+print("\n* https://memshd.fun                                           *")
 print("\n****************************************************************")
 
 
